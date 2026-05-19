@@ -1,0 +1,8 @@
+/Users/weibing/dev/workspace-spring-tools-for-eclipse-5.1.1/manual-rag/src/main/java/com/example/manualrag/ManualRagApplication.java
+/Users/weibing/dev/workspace-spring-tools-for-eclipse-5.1.1/manual-rag/src/main/java/com/example/manualrag/config/CassandraConfig.java
+/Users/weibing/dev/workspace-spring-tools-for-eclipse-5.1.1/manual-rag/src/main/java/com/example/manualrag/controller/ChatController.java
+/Users/weibing/dev/workspace-spring-tools-for-eclipse-5.1.1/manual-rag/src/main/java/com/example/manualrag/controller/IngestionController.java
+/Users/weibing/dev/workspace-spring-tools-for-eclipse-5.1.1/manual-rag/src/main/java/com/example/manualrag/model/ManualChunk.java
+/Users/weibing/dev/workspace-spring-tools-for-eclipse-5.1.1/manual-rag/src/main/java/com/example/manualrag/repository/ManualChunkRepository.java
+/Users/weibing/dev/workspace-spring-tools-for-eclipse-5.1.1/manual-rag/src/main/java/com/example/manualrag/service/PdfIngestionService.java
+/Users/weibing/dev/workspace-spring-tools-for-eclipse-5.1.1/manual-rag/src/main/java/com/example/manualrag/service/RagChatService.java
