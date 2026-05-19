@@ -1,5 +1,8 @@
 # Manual RAG (PDF -> Cassandra Vector Search -> Spring AI)
 
+## Description
+It will read the device manual of Philips coffee machine 3200 manual. After this manual is saved into Cassandra vector database, with local Ollama model, the end user can ask the question about this product.
+
 ## Requirements
 - Java 17+ (Don't use Java 21 above, it will cause the exception when starting Cassandra)
 - Maven 3.8+
@@ -57,12 +60,16 @@ mvn spring-boot:run
 
 ## Ingest PDF
 
+Save the manual into Cassandra
+
 ```bash
 curl -X POST "http://localhost:8080/api/ingest/pdf?productId=philip3200"
 ```
 
 ## Ask Question (RAG)
 
+Ask question with Ollama Model
+
 ```bash
-curl "http://localhost:8080/api/chat?productId=iphone15&question=How do I reset the device?"
+curl "http://localhost:8080/api/chat?productId=iphone15&question=warranty info?"
 ```
