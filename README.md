@@ -1,7 +1,7 @@
 # Manual RAG (PDF -> Cassandra Vector Search -> Spring AI)
 
 ## Description
-It will read the device manual of Philips coffee machine 3200 manual. After this manual is saved into Cassandra vector database, with local Ollama model, the end user can ask the question about this product.
+It will read the device manual of Philips coffee machine 3200. After this manual is saved into Cassandra vector database, with local Ollama model, the end user can ask the question about this product.
 
 ## Requirements
 - Java 17+ (Don't use Java 21 above, it will cause the exception when starting Cassandra)
