@@ -30,6 +30,15 @@ CREATE CUSTOM INDEX IF NOT EXISTS ON manual_chunks (product_id) USING 'org.apach
 
 ## Local Ollama
 
+use model nomic-embed-text-v2-moe locally
+
+```bash
+curl -fsSL https://ollama.com/install.sh 
+
+ollama pull nomic-embed-text-v2-moe
+
+```
+
 ## Run
 
 Depend how to set up YAML file. It is not necessary to export environment variables.
@@ -49,7 +58,7 @@ mvn spring-boot:run
 ## Ingest PDF
 
 ```bash
-curl -X POST "http://localhost:8080/api/ingest/pdf?productId=iphone15&filePath=/path/to/manual.pdf"
+curl -X POST "http://localhost:8080/api/ingest/pdf?productId=philip3200"
 ```
 
 ## Ask Question (RAG)
